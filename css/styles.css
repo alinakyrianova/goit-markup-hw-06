@@ -938,3 +938,57 @@ padding: 32px 0 32px 16px;
     color: #4D5AE5;
     margin-left: 5px;
 }
+.subscribe-form-input{
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: transparent;
+        color: var(--primary-white-color);
+}
+.subscribe-content{
+    margin-left: 80px;
+    width: 453px;
+   height: 80px;
+    
+   
+}
+.subscribe-btn{
+    display: flex;
+    margin-left: 24px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 24px;
+        gap: 16px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+    fill: currentcolor;
+    background-color: var(--pressed-state-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.subscribe-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--primary-white-color);
+        margin-bottom: 16px;
+}
+.subscribe-form-input::placeholder{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2.0;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: var(--primary-white-color);
+}
