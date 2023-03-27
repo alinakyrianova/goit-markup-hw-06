@@ -755,8 +755,8 @@ padding: 32px 0 32px 16px;
 
 .modal {
     width: 408px;
-    min-height: 576px;
-    padding: 20px;
+    
+    padding: 72px 24px 24px 24px;
     background-color: #FCFCFC;
     position: absolute;
     top: 50%;
@@ -769,7 +769,10 @@ padding: 32px 0 32px 16px;
 
 .modal-close{
     display: flex;
+    position: absolute;
     margin-left: auto;
+    top: 24px;
+    right: 24px;
     width: 24px;
     height: 24px;
     justify-content: center;
@@ -779,7 +782,7 @@ padding: 32px 0 32px 16px;
     border-radius: 50%;
     color: rgba(231, 233, 252, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 24px;
+    
    }
 
 
@@ -822,7 +825,7 @@ padding: 32px 0 32px 16px;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--dark-color);
-        margin-top: 24px;
+        
         margin-bottom: 16px;
         
 }
@@ -851,7 +854,7 @@ padding: 32px 0 32px 16px;
     width: 169px;
         height: 56px;
         margin-top:  24px;
-        margin-bottom:24px;
+        
         
 }
 .form-btn:hover,
@@ -864,9 +867,18 @@ padding: 32px 0 32px 16px;
     display: block;
     margin-bottom: 4px;
     color: rgba(142, 143, 153, 1);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    
+       
 }
 .form-control{
     position: relative;
+    margin-bottom: 8px;
 
 }
 .form-icon{
@@ -876,18 +888,22 @@ padding: 32px 0 32px 16px;
     transform: translateY(-50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-group{
-    margin-bottom: 8px;
-}
-.form-textarea{
+
+.form-textarea {
     display: block;
-    width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
    height: 120px;
-    padding: 16px 8px;
-    resize: vertical;
+    padding: 8px 16px;
+    resize: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+      letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 .form-label-checkbox{
     font-family: 'Roboto';
@@ -901,9 +917,7 @@ padding: 32px 0 32px 16px;
          align-items: center;
          margin-top: 16px;
 }
-.form-label-checkbox::before{
 
-}
 
 .form-label-checkbox span{
    
@@ -953,7 +967,7 @@ padding: 32px 0 32px 16px;
     display: flex;
 }
 .subscribe-content{
-    margin-left: 80px;
+    margin-left: auto;
     width: 453px;
    height: 80px;
     
